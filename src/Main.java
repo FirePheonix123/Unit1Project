@@ -7,15 +7,17 @@ public class Main {
 
         System.out.println("Welcome to the  tip Calculator!");
         System.out.println("How many people are in your group: ");
+        int people = scan.nextInt();
 
         System.out.println("What's the tip percentage? (0-100): ");
+        int tip = scan.nextInt();
 
         System.out.println("Enter a cost in dollars and cents, e.g. 12.50 (-1 to end): ");
         System.out.println("Enter the item: ");
 
         System.out.println("-------------------------------");
         System.out.println("Total bill before tip: ");
-        System.out.println("Total percentage: ");
+        System.out.println("Total percentage: "+ tip + "%");
         System.out.println("Total tip: ");
         System.out.println("Total bill with tip: ");
         System.out.println("Per person cost beofre tip: ");
